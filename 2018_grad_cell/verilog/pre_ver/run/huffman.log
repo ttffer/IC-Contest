@@ -1,0 +1,80 @@
+Command: vcs -R -full64 ../../tb.v ../huffman.v -kdb -lca -debug_access+all -l huffman.log \
+
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version S-2021.09_Full64 -- Wed Apr 19 14:57:08 2023
+
+                    Copyright (c) 1991 - 2021 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+
+Warning-[LCA_FEATURES_ENABLED] Usage warning
+  LCA features enabled by '-lca' argument on the command line.  For more 
+  information regarding list of LCA features please refer to Chapter "LCA 
+  features" in the VCS Release Notes
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+Command: /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/./simv -lca -a huffman.log
+Chronologic VCS simulator copyright 1991-2021
+Contains Synopsys proprietary information.
+Compiler version S-2021.09_Full64; Runtime version S-2021.09_Full64;  Apr 19 14:57 2023
+*Verdi* Loading libsscore_vcs202109.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'huffman.fsdb'
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+
+Warning-[STASKW_CO1] Cannot open file
+  The file '../pattern1.dat' could not be opened. No such file or directory.
+  Please ensure that the file exists with proper permissions.
+
+
+Warning-[STASKW_RMCOF] Cannot open file
+../../tb.v, 109
+  Cannot open file '../pattern1.dat' passed as argument to $readmem.
+  Please verify that the first argument to $readmem is a file that exists with
+  proper permissions.
+
+
+Warning-[STASKW_CO1] Cannot open file
+  The file '../golden1.dat' could not be opened. No such file or directory.
+  Please ensure that the file exists with proper permissions.
+
+
+Warning-[STASKW_RMCOF] Cannot open file
+../../tb.v, 110
+  Cannot open file '../golden1.dat' passed as argument to $readmem.
+  Please verify that the first argument to $readmem is a file that exists with
+  proper permissions.
+
+../pattern1.dat and ../golden1.dat were used for this simulation.
+Check CNT : ERROR. Please fixed it first!
+Simulation stop here.
+$finish called from file "../../tb.v", line 152.
+$finish at simulation time               107000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1070000 ps
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Wed Apr 19 14:57:11 2023
+CPU time: .221 seconds in simulation

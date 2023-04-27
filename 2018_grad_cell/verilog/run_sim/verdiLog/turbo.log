@@ -1,0 +1,8 @@
+Command Line: /usr/cad/synopsys/verdi/2022.06/platform/LINUXAMD64/bin/Novas -dbdir simv.daidir -ssf huffman.fsdb
+uname(Linux testlab5913 3.10.0-1160.76.1.el7.x86_64 #1 SMP Wed Aug 10 16:21:17 UTC 2022 x86_64)
+[MessageBox] The KDB has been updated by other processes. Reload the KDB to update it; otherwise, you may get unexpected results.
+Failed to bind ID for line(94) of file(../tb.v)
+[MessageBox] The KDB has been updated by other processes. Reload the KDB to update it; otherwise, you may get unexpected results.
+[MessageBox] The KDB has been updated by other processes. Reload the KDB to update it; otherwise, you may get unexpected results.
+Failed to bind ID for line(409) of file(../huffman.v)
+au time 517172.821640 3957.271732 4502.138519 delta 650870784 650870784 total 1176018944 1176018944

@@ -1,0 +1,158 @@
+Magic 271485
+Revision Verdi_T-2022.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1756 805 256 175
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 113175.744353 119180.000000
+cursor 117500.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 43
+; marker line index
+markerPos 74
+
+; Run Time Signal and Member
+; userBusMem member ...
+; saveRunSig name
+activeDirFile "" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb"
+userBusMem /tb/u_huffman/c1_com_result[1]
+userBusMem /tb/u_huffman/c1_com_result[2]
+userBusMem /tb/u_huffman/c1_com_result[3]
+userBusMem /tb/u_huffman/c1_com_result[4]
+saveRunSig "/tb/u_huffman/c1_com_result[1:4]"
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+addGroup "G1"
+activeDirFile "" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /tb/u_huffman/CNT1[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope CNT2[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope CNT3[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope CNT4[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope CNT5[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope CNT6[7:0]
+addSignal -h 15 -holdScope clk
+addSignal -h 15 -holdScope receive_done_flag
+addSignal -h 15 -holdScope CNT_valid
+addSignal -h 15 -holdScope reset
+addSignal -h 15 -holdScope index_table[1:6]
+addSignal -h 15 -holdScope switch
+addSignal -expanded -h 15 -holdScope sym_cnt[1:6]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[1][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[2][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[3][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[4][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[5][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sym_cnt[6][6:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope data_cnt[6:0]
+addSignal -h 15 -holdScope gray_valid
+addSignal -h 15 -UNSIGNED -BIN -holdScope c1_com_result[4:1]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c1_group_idx[4:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c2_com_result[3:1]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c2_group_idx[4:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c3_com_result[2:1]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c3_group_idx[2:0]
+addSignal -h 15 -holdScope c4_com_result
+addSignal -h 15 -holdScope init_done
+addSignal -h 15 -holdScope code_valid
+addSignal -h 15 -holdScope c1_cnt[1:5]
+addSignal -h 15 -holdScope c2_cnt[1:4]
+addSignal -UNSIGNED -UDEC -HIDDEN -holdScope c2_cnt[1][6:0]
+addSignal -UNSIGNED -UDEC -HIDDEN -holdScope c2_cnt[2][6:0]
+addSignal -UNSIGNED -UDEC -HIDDEN -holdScope c2_cnt[3][6:0]
+addSignal -UNSIGNED -UDEC -HIDDEN -holdScope c2_cnt[4][6:0]
+addSignal -h 15 -holdScope c3_cnt[1:3]
+addSignal -h 15 -holdScope c4_cnt[1:2]
+addSignal -h 15 -holdScope index_table[1:6]
+addSignal -h 15 -holdScope c1_gp_member[1:5]
+addSignal -h 15 -holdScope c2_gp_member[1:4]
+addSignal -h 15 -holdScope c3_gp_member[1:3]
+addSignal -expanded -h 15 -holdScope c4_gp_member[1:2]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c4_gp_member[1][6:1]
+addSignal -h 15 -UNSIGNED -BIN -holdScope c4_gp_member[2][6:1]
+addSignal -expanded -h 15 -holdScope huffman_code[1:6]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[1][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[2][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[3][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[4][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[5][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope huffman_code[6][7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC1[7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC2[7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC3[7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC4[7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC5[7:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope HC6[7:0]
+addSignal -h 15 -holdScope code_len[1:6]
+addSignal -expanded -h 15 -holdScope hc_cnt[1:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[1][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[2][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[3][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[4][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[5][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope hc_cnt[6][2:0]
+addSignal -h 15 -holdScope group_valid
+addSignal -h 15 -holdScope clk
+addSignal -expanded -h 15 -holdScope code_len[1:6]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[1][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[2][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[3][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[4][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[5][2:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope code_len[6][2:0]
+addSignal -h 15 -holdScope code_valid
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -HEX /tb/u_huffman/finish_cnt[2:0]
+addGroup "G3"
+addGroup "G4"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/tb"
+"/tb/u_huffman"
+
+SCOPE_LIST_BEGIN
+"/tb"
+"/tb/u_huffman"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

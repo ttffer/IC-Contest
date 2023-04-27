@@ -1,0 +1,16 @@
+
+FTP account:                      XXXXX 
+
+Level:                             A
+
+--- RTL category---
+HDL simulator :                    vcs
+RTL filename :                    huffman.v 
+
+--- Pre-layout gate-level ---
+gate-levelfilename:               huffman_syn.v
+gate-level sdf filename:          huffman_syn.sdf       
+
+-----(annotation)--------------------------------------------------------
+ (optional, write down anything that you want raters know)
+only RTL simulation 

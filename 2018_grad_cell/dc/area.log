@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : huffman
+Version: S-2021.06-SP2
+Date   : Thu Apr 27 09:53:01 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /users/m1053011/Desktop/verilog_sim/ic_contest/CBDK_IC_Contest_v2.5/SynopsysDC/db/slow.db)
+
+Number of ports:                          347
+Number of nets:                          2094
+Number of cells:                         1818
+Number of combinational cells:           1491
+Number of sequential cells:               309
+Number of macros/black boxes:               0
+Number of buf/inv:                        278
+Number of references:                     168
+
+Combinational area:              16822.931365
+Buf/Inv area:                     1539.541783
+Noncombinational area:            9233.856070
+Macro/Black Box area:                0.000000
+Net Interconnect area:          235387.866608
+
+Total cell area:                 26056.787435
+Total area:                     261444.654042
+1

@@ -1,0 +1,140 @@
+0 
+36
++itf+/usr/cad/synopsys/vcs/2021.09/linux64/lib/vcsdp_lite.tab
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2021.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2021.09/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2021.09/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2021.09/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2021.09/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2021.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2021.09/include
+-Mxllcflags=
+-P
+-Xufe=2steps
+-Xvcs_run_simv=1
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-l
+-lca
+-picarchive
+/usr/cad/synopsys/vcs/2021.09/linux64/bin/vcs1
+huffman.log
+/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/verdi.tab
+../../tb.v
+../huffman.v
+87
+mraarch=linux_64
+installdir=/usr/cad/synopsys/hspice/2021.09/hspice
+XRDP_SOCKET_PATH=/run/xrdp
+XRDP_SESSION=1
+XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_11
+XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_11
+XMODIFIERS=@im=ibus
+XLOCALEDIR=/usr/cad/synopsys/icc/2022.03/etc/locale
+XDG_SESSION_ID=c22
+XDG_RUNTIME_DIR=/run/user/1005
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/users/m1053011/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=GNOME
+VTE_VERSION=5204
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/cad/synopsys/verdi/2022.06/
+VENDOR=unknown
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=huffman.log
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/usr/cad/synopsys/vcs/2021.09/
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2021.09/linux64
+TMIARCH=RH_64
+SYN_MAN_DIR=/usr/cad/synopsys/vcs/2021.09//doc/man
+SYNOPSYS_TMAX=/usr/cad/synopsys/tmax/cur
+SYNOPSYS_LC_ROOT=/cad/synopsys/lc/cur
+SYNOPSYS=/usr/cad/synopsys/formality/cur
+SSH_AUTH_SOCK=/run/user/1005/keyring/ssh
+SSH_AGENT_PID=10239
+SPAPI_AHDL_INCLUDE=/usr/cad/synopsys/hspice/2021.09/hspice/include
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2021.09//linux64/clang
+SNPS_PLATFORM=linux64
+SNPS_64=1
+SHLIB_PATH=/usr/cad/synopsys/verdi/2022.06//etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2022.06//share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/:
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/10238,unix/unix:/tmp/.ICE-unix/10238
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=ibus
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+OVA_UUM=0
+OSTYPE=linux
+OA_HOME=/usr/cad/cadence/IC/IC_06.18.150/oa
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+MGC_HOME=/usr/cad/mentor/calibre/aoi_cal_2021.3_35.19/
+MATLAB_ROOT_DIR=/usr/cad/math/R2021a
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HSP_SIGMA_AMP=/usr/cad/synopsys/hspice/2021.09/hspice/linux64/python/AVA/ava
+HSP_HOME=/usr/cad/synopsys/hspice/2021.09/hspice
+HSP_GCC_VERSION=9.2.0
+HSP_GCC=/usr/cad/synopsys/hspice/2021.09/hspice/GNU/linux64/gcc/bin/gcc -m64 
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=m1053011
+GNOME_TERMINAL_SERVICE=:1.101
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/8e62df61_2d53_4546_8a20_7521b4fdc6a3
+GNOME_SHELL_SESSION_MODE=classic
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:abstract=/tmp/dbus-bLWW7LldMS,guid=a5d78dff8cf2e5b2d6639c05643a3dc7
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-bLWW7LldMS,guid=a5d78dff8cf2e5b2d6639c05643a3dc7
+CUDA_HOME=:/usr/local/cuda-11.4:/usr/local/cuda-11.4
+COLORTERM=truecolor
+CMIARCH=RH_64
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_AUTO_64BIT=ALL
+CDSHOME=/usr/cad/cadence/IC/IC_06.18.150
+CDPL_HOME=/usr/cad/synopsys/hspice/2021.09/hspice/cdpl
+CALIBRE_HOME=/usr/cad/mentor/calibre/aoi_cal_2021.3_35.19/
+ARCH=linux64
+0
+0
+4
+1679981445 ../huffman.v
+1681115305 ../../tb.v
+1653825972 /usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/verdi.tab
+1630379311 /usr/cad/synopsys/vcs/2021.09/linux64/lib/vcsdp_lite.tab
+4
+1630381392 /usr/cad/synopsys/vcs/2021.09/linux64/lib/libvirsim.so
+1630379964 /usr/cad/synopsys/vcs/2021.09/linux64/lib/liberrorinf.so
+1630379861 /usr/cad/synopsys/vcs/2021.09/linux64/lib/libsnpsmalloc.so
+1630379961 /usr/cad/synopsys/vcs/2021.09/linux64/lib/libvfs.so
+1681887405 simv.daidir
+-1 partitionlib

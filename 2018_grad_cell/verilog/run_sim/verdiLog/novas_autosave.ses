@@ -1,0 +1,93 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_T-2022.06
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[OneSearch]
+isExisted = FALSE
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[fusa]
+fdb_server = 
+fdb_proj = 
+fdb_campaign = 
+fdb_tool = 
+[hb]
+postSimFile = /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb
+syncTime = 117500
+viewport = 0 34 1920 962 0 0 779 1217
+activeNode = "tb.u_huffman"
+activeScope = "tb.u_huffman"
+activeFile = "../huffman.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 379
+baMode = True
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = True
+funcMode = False
+powerAwareAnnot = True
+safetyAwareAnnot = True
+amsAnnot = True
+DnDtraceCrossHierOnly = True
+leadingZero = False
+signalPane = False
+SourceVerticalScrollLines = 5
+Scope1 = "tb.u_huffman"
+multipleSelection = 1 0 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "-dbdir" "simv.daidir" 
+invokeDir = /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim
+[hb.sourceTab.1]
+scope = tb.u_huffman
+File = /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/huffman.v
+Line = 380
+[nMemoryManager]
+WaveformFile = /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/huffman.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 25 1756 805 256 175
+primaryWindow = TRUE
+SessionFile = /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/run_sim/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSyncCursorMarker = FALSE
+waveformSyncHorizontalRange = FALSE
+waveformSyncVerticalscroll = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE
+fsaRegMask = TRUE
+fsaCoreMask = TRUE
+fsaSfsmMask = TRUE
+fsaEcrMask = TRUE

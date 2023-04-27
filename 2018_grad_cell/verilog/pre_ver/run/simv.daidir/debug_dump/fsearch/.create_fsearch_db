@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/usr/cad/synopsys/vcs/2021.09//etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/usr/cad/synopsys/vcs/2021.09/linux64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/usr/cad/synopsys/vcs/2021.09/linux64/lib:/usr/cad/synopsys/vcs/2021.09/linux64/lib/pylib27
+export LD_LIBRARY_PATH
+/usr/cad/synopsys/vcs/2021.09/linux64/bin/vcsfind_create_index.exe  -z  "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/simv.daidir/debug_dump/fsearch/./idents_tapi.xml.gz" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/simv.daidir/debug_dump/fsearch/./idents_rfAHj0.xml.gz" -o "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/simv.daidir/debug_dump/fsearch/fsearch.db_tmp"
+\mv "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/simv.daidir/debug_dump/fsearch/fsearch.db_tmp" "/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/pre_ver/run/simv.daidir/debug_dump/fsearch/fsearch.db"

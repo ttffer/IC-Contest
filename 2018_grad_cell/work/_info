@@ -1,0 +1,254 @@
+m255
+K4
+z2
+!s11f vlog 2021.3 2021.07, Jul 13 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell
+vaxis_top_ver1126
+Z1 !s110 1682252287
+!i10b 1
+!s100 ^GzEz4HI<=:gUjZ25_<?T0
+I0jejIkcWMbC0A^2GVB<X21
+R0
+Z2 w1680317762
+Z3 8/users/m1053011/Desktop/TCBNN_cellbase_design_flow/icc/lvs
+Z4 F/users/m1053011/Desktop/TCBNN_cellbase_design_flow/icc/lvs
+!i122 362
+L0 188441 9364
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OE;L;2021.3;73
+r1
+!s85 0
+31
+Z7 !s108 1682252285.000000
+Z8 !s107 /users/m1053011/Desktop/TCBNN_cellbase_design_flow/icc/lvs|
+Z9 !s90 -quiet|-nologo|/users/m1053011/Desktop/TCBNN_cellbase_design_flow/icc/lvs|
+!i113 0
+Z10 o-quiet -nologo -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0
+vCHIP
+R1
+!i10b 1
+!s100 16^[6`]z:>]aSI9jJb7Ak0
+IiBQ_A_>`le7]1hA[`@VTg3
+R0
+R2
+R3
+R4
+!i122 362
+L0 197809 164
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+n@c@h@i@p
+vcomparator
+Z12 !s110 1682252285
+!i10b 1
+!s100 z`:Ig>CO?l@6W?6CDX[>:1
+ISZD9@`0J0PQeBWda[nj?U0
+R0
+R2
+R3
+R4
+!i122 362
+L0 14 3330
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vhuffman
+!s110 1682560332
+!i10b 1
+!s100 3<0LDffG0h2bm>FRldQlL3
+IW:43aAWTG@boSkj]Y7i[H3
+R0
+w1682560332
+8/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/huffman.v
+F/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/huffman.v
+!i122 386
+L0 1 460
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682560332.000000
+!s107 /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/huffman.v|
+!s90 -quiet|-nologo|/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/huffman.v|
+!i113 0
+R10
+R11
+vlayer0_tcb_121x16x10
+Z13 !s110 1682252286
+!i10b 1
+!s100 Sk9Q]AWKfW;j`OKJ?mO4l1
+I:1Hg^=@eTf???b>02m<XM3
+R0
+R2
+R3
+R4
+!i122 362
+L0 29500 158611
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vlayer2_tcb_121x16x10
+R12
+!i10b 1
+!s100 CadGRaEh5WckE2FflOaXd2
+IHeP2X`J>BZg8z:nj4jz8U2
+R0
+R2
+R3
+R4
+!i122 362
+L0 3348 26148
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vspindle
+!s110 1682252044
+!i10b 1
+!s100 [7D[FMPS3WFX7Y9h0lZ`J2
+IWf^Bb_U54R[OEgeZAmEl:3
+R0
+w1682252044
+8/users/m1053011/Desktop/spindle/verilog/spindle.v
+F/users/m1053011/Desktop/spindle/verilog/spindle.v
+!i122 360
+L0 1 86
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682252044.000000
+!s107 /users/m1053011/Desktop/spindle/verilog/spindle.v|
+!s90 -quiet|-nologo|/users/m1053011/Desktop/spindle/verilog/spindle.v|
+!i113 0
+R10
+R11
+vspindle_tb
+!s110 1682257975
+!i10b 1
+!s100 JR@ckaemc5YZKTf]A0=MG3
+IFbaP<miX8J0>nBG0DNRz73
+R0
+w1682257975
+8/users/m1053011/Desktop/spindle/verilog/spindle_tb.v
+F/users/m1053011/Desktop/spindle/verilog/spindle_tb.v
+!i122 366
+L0 5 97
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682257975.000000
+!s107 /users/m1053011/Desktop/spindle/verilog/spindle_tb.v|
+!s90 -quiet|-nologo|/users/m1053011/Desktop/spindle/verilog/spindle_tb.v|
+!i113 0
+R10
+R11
+vtb
+!s110 1682560883
+!i10b 1
+!s100 CiQX6[IHeo`SEa@[UHaQo2
+IZVA4nBG^Gd78VL?@o?0SA3
+R0
+w1682560883
+8/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/tb.v
+F/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/tb.v
+!i122 390
+L0 35 173
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682560883.000000
+!s107 /users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/tb.v|
+!s90 -quiet|-nologo|/users/m1053011/Desktop/verilog_sim/ic_contest/2018_grad_cell/verilog/tb.v|
+!i113 0
+R10
+R11
+vtb_for_combine
+!s110 1682249221
+!i10b 1
+!s100 7;fECC5ED`JldAVlZFFIc1
+Il:OU_B<;0o^73D<?FgizA2
+R0
+w1680318352
+8/users/m1053011/Desktop/TCBNN_cellbase_design_flow/verilog/tb_for_combine_32.v
+F/users/m1053011/Desktop/TCBNN_cellbase_design_flow/verilog/tb_for_combine_32.v
+!i122 335
+L0 5 129
+R5
+R6
+r1
+!s85 0
+31
+!s108 1682249221.000000
+!s107 /users/m1053011/Desktop/TCBNN_cellbase_design_flow/verilog/tb_for_combine_32.v|
+!s90 -quiet|-nologo|/users/m1053011/Desktop/TCBNN_cellbase_design_flow/verilog/tb_for_combine_32.v|
+!i113 0
+R10
+R11
+vtop_tcb_121_16_10
+R13
+!i10b 1
+!s100 >f54m[d`ReHSIAICDP=Wa3
+I`IVkO1fkk<H3DVBF?@fK`1
+R0
+R2
+R3
+R4
+!i122 362
+L0 188115 322
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
